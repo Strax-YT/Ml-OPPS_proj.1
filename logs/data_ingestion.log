@@ -1,0 +1,17 @@
+2025-05-21 03:00:29,661 - data_ingestion - ERROR - File not found: params.yaml
+2025-05-21 03:00:29,661 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-05-21 03:01:03,707 - data_ingestion - ERROR - File not found: params.yaml
+2025-05-21 03:01:03,707 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-05-21 03:02:58,342 - data_ingestion - ERROR - File not found: params.yaml
+2025-05-21 03:02:58,342 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-05-21 03:07:42,463 - data_ingestion - ERROR - File not found: params.yaml
+2025-05-21 03:07:42,464 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-05-21 03:11:40,761 - data_ingestion - ERROR - File not found: params.yaml
+2025-05-21 03:11:40,761 - data_ingestion - ERROR - Failed to complete the data ingestion process: [Errno 2] No such file or directory: 'params.yaml'
+2025-05-21 03:15:39,134 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2025-05-21 03:15:39,135 - data_ingestion - ERROR - Failed to complete the data ingestion process: 'NoneType' object is not subscriptable
+2025-05-21 03:17:21,666 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2025-05-21 03:17:21,667 - data_ingestion - ERROR - Failed to complete the data ingestion process: 'NoneType' object is not subscriptable
+2025-05-21 03:21:30,369 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/refs/heads/main/spam.csv
+2025-05-21 03:21:30,407 - data_ingestion - DEBUG - Data preprocessing completed
+2025-05-21 03:21:30,461 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
