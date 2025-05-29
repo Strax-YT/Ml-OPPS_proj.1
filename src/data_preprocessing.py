@@ -1,3 +1,14 @@
+import nltk
+import os
+
+# Manually specify your custom download location
+nltk_data_dir = os.path.join(os.getcwd(), 'nltk_data')
+nltk.data.path.append(nltk_data_dir)
+
+# Ensure punkt and stopwords are available
+nltk.download('punkt', download_dir=nltk_data_dir)
+nltk.download('stopwords', download_dir=nltk_data_dir)
+
 import os
 import logging
 import pandas as pd
@@ -5,9 +16,7 @@ from sklearn.preprocessing import LabelEncoder
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 import string
-import nltk
 
-nltk.download('punkt')
 # Ensure the "logs" directory exists
 log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
