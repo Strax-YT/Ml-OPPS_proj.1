@@ -1,6 +1,7 @@
 data/
 models/
 nltk_data/
+experiments/*.csv
 dvclive/
 *.pyc
 __pycache__/
