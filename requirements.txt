@@ -1,0 +1,6 @@
+pandas==2.2.2
+scikit-learn==1.5.2
+nltk==3.9.1
+PyYAML==6.0.3
+dvc==3.59.2
+dvclive==3.49.1
