@@ -7,6 +7,7 @@ nltk.data.path.append(nltk_data_dir)
 
 # Ensure punkt and stopwords are available
 nltk.download('punkt', download_dir=nltk_data_dir)
+nltk.download('punkt_tab', download_dir=nltk_data_dir)
 nltk.download('stopwords', download_dir=nltk_data_dir)
 
 import os

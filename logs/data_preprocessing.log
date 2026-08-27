@@ -756,3 +756,65 @@
     - 'D:\\Ml-OPPS_proj.1\\nltk_data'
 **********************************************************************
 
+2026-08-27 15:19:25,848 - data_preprocessing - DEBUG - Data loaded properly
+2026-08-27 15:19:25,861 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-08-27 15:19:25,960 - data_preprocessing - DEBUG - Target column encoded
+2026-08-27 15:19:26,010 - data_preprocessing - DEBUG - Duplicates removed
+2026-08-27 15:19:26,062 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Lenovo/nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\share\\nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\lib\\nltk_data'
+    - 'C:\\Users\\Lenovo\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+    - 'D:\\Ml-OPPS_proj.1\\nltk_data'
+**********************************************************************
+
+2026-08-27 15:19:26,064 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Lenovo/nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\share\\nltk_data'
+    - 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\lib\\nltk_data'
+    - 'C:\\Users\\Lenovo\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+    - 'D:\\Ml-OPPS_proj.1\\nltk_data'
+**********************************************************************
+
+2026-08-27 15:22:50,160 - data_preprocessing - DEBUG - Data loaded properly
+2026-08-27 15:22:50,164 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-08-27 15:22:50,191 - data_preprocessing - DEBUG - Target column encoded
+2026-08-27 15:22:50,211 - data_preprocessing - DEBUG - Duplicates removed
+2026-08-27 15:23:19,585 - data_preprocessing - DEBUG - Text column transformed
+2026-08-27 15:23:19,587 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-08-27 15:23:19,588 - data_preprocessing - DEBUG - Target column encoded
+2026-08-27 15:23:19,589 - data_preprocessing - DEBUG - Duplicates removed
+2026-08-27 15:23:26,702 - data_preprocessing - DEBUG - Text column transformed
+2026-08-27 15:23:26,725 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
