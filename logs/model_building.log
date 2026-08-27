@@ -1,0 +1,4 @@
+2026-08-27 15:29:35,699 - model_building - DEBUG - Parameters retrieved from params.yaml
+2026-08-27 15:29:35,756 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2026-08-27 15:29:36,191 - model_building - DEBUG - Model training completed
+2026-08-27 15:29:36,201 - model_building - DEBUG - Model saved to models/model.pkl
